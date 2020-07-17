@@ -1,0 +1,2 @@
+This lib uses the gears lib module so this requires to follow the Creative Commons - Attribution - Non-Commercial - Share Alike license.
+http://creativecommons.org/licenses/by-nc-sa/3.0/
