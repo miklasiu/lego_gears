@@ -1,7 +1,7 @@
 # lego_gears
 OpenSCAD lib to create lego compatible gears.
 
-I just got 3d printer kit and I need something to test it on. Gears are always useful...
+I just got 3d printer kit and I need something to test it on. Gears are always useful... Requires gears library - https://github.com/chrisspen/gears which does the heavy lifting.
 
 
 lego_gear(s, flat_surface=true, central_axle=true, solid=false, stud_hole_tolerance=0.00, axle_hole_tolerance=0.05)
