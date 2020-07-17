@@ -13,7 +13,7 @@ standard sizes are 0.5 (8 spurs), 1 (16 spurs), 1.5 (24 spurs), 2.5 (40 spurs). 
   - central axle - create a hole for the central axle. If set to false there will be none so you can create a custom one - to interface with non-lego stuff
   - solid - if set to true - create no additional spur or axle holes off the center. Implies "flat_surface".
   - stud_hole_tolerance - offset from 4.8/6.2mm standard. Positive values give bigger holes.
-  - axle_hole_tolerance - offset from 4.8 standard. Default is 0.05 (4.75mm). Positive values give bigger holes.
+  - axle_hole_tolerance - offset from 4.8mm standard. Default is 0.05 (4.85mm). Positive values give bigger holes.
 
 
 lego_axle(m=1, hole=false, tolerance=0.05)
@@ -35,3 +35,6 @@ example:
 
 for (s = [0.5:1:2.5]) translate([s*s*8,0,0]) rotate([0,0,22.5*(s-0.5)]) lego_gear(s);
 for (s = [1:1:2]) translate([-s*s*8-2,0,0]) rotate([0,0,22.5*s/2]) lego_gear(s, flat_surface=false);
+
+![Example](/example.png)
+
